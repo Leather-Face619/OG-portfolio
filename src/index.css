@@ -1,0 +1,11 @@
+@font-face {
+    font-family: raa;
+    src: url('./assets/digital.ttf') format('truetype');
+}
+@font-face {
+    font-family: found;
+    src: url('./assets/founders.ttf') format('truetype');
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
