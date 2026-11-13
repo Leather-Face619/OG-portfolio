@@ -5,7 +5,6 @@ const AboutMe = () => {
 
   const skills = [
     "REACT JS",
-    "NEXT JS",
     "JAVASCRIPT",
     "NODE JS",
     "GSAP",

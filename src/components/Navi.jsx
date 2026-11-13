@@ -9,6 +9,12 @@ const Navi = ({ setShowInsights }) => {
       block: "start"
     });
   };
+  const scrollToServices = () => {
+    document.getElementById("services")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  };
 
   return (
     <div className='fixed z-[99] w-full px-10 py-5 flex justify-between items-start'>
@@ -44,6 +50,9 @@ const Navi = ({ setShowInsights }) => {
 
     if (index === 4) {
       scrollToContact()
+    }
+    if (index === 0) {
+      scrollToServices()
     }
   }}
   className={`font-semibold ${index === 4 ? "ml-44" : ""}`}
